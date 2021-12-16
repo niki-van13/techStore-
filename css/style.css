@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+  
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    left: 0;
+    background-color: #0a0606;
+    color: #FFFFFF;
+}
+
+header h1 {
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    background-color: black;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+
+.header, i {
+
+position: fixed;
+right: 80px;
+top: 60;
+color: white;
+ 
+}
+
+#counter {
+    color: white; 
+    position: fixed;
+    right: 102px;
+    top: 54px;
+    font-size: 40px;
+    padding-right: 28px;
+  }
+
+
+header a {
+    text-decoration: none;
+    text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+.item-container {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(253, 253, 253);
+}
+.img-container {
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+height: 60%;
+
+}
+ .img-product {
+     width: 60%;
+     height: 60%;
+     font-size: 20px;
+     align-content: center;
+     padding-left: 30px;
+     object-fit: cover;
+ }
+.btn-addtocart{
+
+    font-size: 40px;
+    background-color: rgb(91, 118, 238);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.btn-addtocart, i {
+    color: white;
+    float: left;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.btn-text {
+    
+    font-size: 25px;
+    font-family: 'Times New Roman', Times,;
+    color: white;
+    padding: 30px 35px;
+    align-items: center;
+}
+
+.img-product, h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 50px;
+font-weight: bold;margin-bottom: 0px;
+
+}
+
+.img-product, p {
+    font-family:'Times New Roman', Times, serif;
+font-size: 30px;
+font-weight: bold;
+}
+
+
+
+
+

@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+
+.header, h1 {
+    text-decoration: none;
+   
+    
+}
+.headerText{
+    color: white;
+}
+
+
+#counter {
+    color: white; 
+    right: 46px;
+    top: 50px;
+    font-size: 36px;
+    padding-right: 15px;
+  }
+
+
+  .header i {
+
+ 
+    top: 60;
+    color:white;
+    align-items: flex-end;
+   
+  } 
+
+
+  header a {
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+#main {
+  
+    display: flex;
+    align-items: center;
+   
+}
+
+#cartItemsContainer {
+   
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+  
+
+}
+ .img-product {
+     display: flex;
+     flex-direction: row;
+     width: 8em;
+     height: 8em;
+     padding-top: 30px;
+     object-fit: scale-down;
+     
+    
+ }
+
+ .img-product, h1 {
+     text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+ }
+ .item-container, p {
+    text-align:  center;
+    font-weight: bold;
+    padding-bottom: 40px;
+    font-size: 0px;
+ } 
+
+
+
+ .item-container{
+    
+     border: 3px solid blue;
+     border-radius: 25px;
+     margin-left: 30px;
+     background-color: rgb(240, 240, 240);
+     margin-bottom: 10px;
+    }
+    .btn-removetocart {
+    
+        background-color: rgb(243, 114, 114);
+        font-size: 25px;
+        border-radius: 15px;
+        color: white;
+        font-family:'Times New Roman', Times, serif;
+        height: 44px;
+        width: 175px;
+        padding-left: 5px;
+        text-align:center;
+       
+        
+    }
+    
+    .btn-text {
+ color:white;
+font-size: 20px;
+    }
+        
+    .btn-removetocart i {
+        color: white;
+        float: left;
+        font-size: 20px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+ .titoloCarello, i {
+color:black;
+font-size: 40px;
+padding-top: 10px;
+    }
+    .titoloCarello{
+        color: black;
+       
+    }
+
+
+    .fa-shopping-cart.top {
+        color:white;
+        font-size: 35px;
+    }
+  
+    
+
+#checkOutBtn {
+    background-color: rgb(52, 147, 211);
+   font-size: 30px;
+   color: white;
+   text-align: center;
+   padding-bottom: 10px;
+   border-radius: 9px;
+
+}
+.fas.fa-check.giu {
+color: white;
+   
+}
+#priceContainer { 
+    display: flex;
+ max-width: 50%;
+  margin: 0 auto;
+   text-align: center; 
+   justify-content: center;
+   ;
+}
+ #prezzoContainer {
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+   
+ }
